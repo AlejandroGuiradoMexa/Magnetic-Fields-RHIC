@@ -1,15 +1,6 @@
 MCG
 ===
 
-Monte-Carlo Glauber Model of Heavy Ion Collisions
+The Monte Carlo Glauber implementation was made by:https://github.com/MCGlauber/MCG. This project is based on Python language, so you can run the notebooks with jupyter notebook. The python version is 2.x, if wanted to run it in a later version you can select the option for python 3.x. 
 
-Python based collision simulator for heavy ions. 
-Utilizes Monte-Carlo Glauber methods to geometrically simulate 
-nuclear collisions.
-
-GlauberModel.py requires 
-* WoodSaxonParameters.txt
-* FourierBesselParameters.txt
-* and working internet connection to run
-
-Follow the steps outlined in the MCGlauber.ipynb notebook file.
+The magnetic field implementation for nucleons participants and spectators was originally made by myself but in collaboration with Eleazar Cuautle and Luciano Díaz who made the original code dynamic and added extended funcionality.
