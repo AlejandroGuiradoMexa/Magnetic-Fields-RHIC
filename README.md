@@ -2,8 +2,7 @@
 In Relativistic Heavy Ion Collisions(RHIC) the magnetic fields created by spectators protons are extremely strong. Therefore, magnetic fields are extensively study in order to characterize and analyze the effects on particle observables and transports effects. The model used to calculate the electromagnetic field, we used the Lienard-Wiechert model obtained by considering the retardation time in classical electrodynamic equatios. 
 
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-
+<img src="https://render.githubusercontent.com/render/math?math=%0A%20%20%20%5Cbegin%7Bequation%7D%0A%20%20%20e%5Cmathbf%7BB%7D(%5Cmathbf%7Br%7D%2Ct)%3D%5Calpha%20%0A%5Cfrac%7B%5Cmathbf%7Bv%7D%5Ctimes%20%5Cmathbf%7BR%7D%20(%201-v%5E%7B2%7D)%7D%20%7B%20%20R%5E%7B3%7D(1-%5Cfrac%7B(%7C%5Cmathbf%7BR%7D%5Ctimes%5Cmathbf%7Bv%7D%7C)%5E%7B2%7D%7D%7BR%5E%7B2%7D%7D)%5E%7B3%2F2%7D%20%20%7D%20%20%20%5Cqquad%20%20%20%20e%5Cmathbf%7BE%7D(%5Cmathbf%7Br%7D%2Ct)%3D%5Calpha%20%0A%5Cfrac%7B%5Cmathbf%7BR%7D%20(%201-v%5E%7B2%7D)%7D%20%7B%20R%5E%7B3%7D(1-%5Cfrac%7B(%7C%5Cmathbf%7BR%7D%5Ctimes%5Cmathbf%7Bv%7D%7C)%5E%7B2%7D%7D%7BR%5E%7B2%7D%7D)%5E%7B3%2F2%7D%20%20%7D%20%20%20%20%0A%20%20%5Cend%7Bequation%7D">
 
 ## Monte Carlo Genereator
 The Monte Carlo generator is used to simulate the initial condition of nuclei collisions, the Glauber Monte Carlo is very accurate with experiments results and is the one used in this work. After the initial condition is setted up, in order to take into account the temporal evolution of the system, several models are available. In UrQMD(arXiv:hep-ph/9909407), the nucleus propagation is considered without any potential for all particles. However is possible to change this configuration, if we want to consider Coulomb, Pauli, among other potentials. 
