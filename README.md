@@ -7,8 +7,16 @@ To present the results that can be easily compared to recent publications, the e
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{e\mathbf{B}(\mathbf{r},t)}{m_{\pi}^{2}}=\alpha\left(\frac{197}{135}&space;\right)^{2}&space;\frac{\mathbf{p}\times&space;\mathbf{R}&space;(&space;E^{2}-|\mathbf{p}|^{2}&space;)&space;}&space;{&space;((R&space;E)^{2}-|\mathbf{R}\times\mathbf{p}|^{2})^{3/2}&space;}&space;\qquad&space;\frac{e\mathbf{E}(\mathbf{r},t)}{m_{\pi}^{2}}=\alpha\left(\frac{197}{135}&space;\right)^{2}&space;\frac{\mathbf{R}&space;(&space;E^{2}-|\mathbf{p}|^{2}&space;)&space;}&space;{&space;((R&space;E)^{2}-|\mathbf{R}\times\mathbf{p}|^{2})^{3/2}&space;}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\frac{e\mathbf{B}(\mathbf{r},t)}{m_{\pi}^{2}}=\alpha\left(\frac{197}{135}&space;\right)^{2}&space;\frac{\mathbf{p}\times&space;\mathbf{R}&space;(&space;E^{2}-|\mathbf{p}|^{2}&space;)&space;}&space;{&space;((R&space;E)^{2}-|\mathbf{R}\times\mathbf{p}|^{2})^{3/2}&space;}&space;\qquad&space;\frac{e\mathbf{E}(\mathbf{r},t)}{m_{\pi}^{2}}=\alpha\left(\frac{197}{135}&space;\right)^{2}&space;\frac{\mathbf{R}&space;(&space;E^{2}-|\mathbf{p}|^{2}&space;)&space;}&space;{&space;((R&space;E)^{2}-|\mathbf{R}\times\mathbf{p}|^{2})^{3/2}&space;}" title="\frac{e\mathbf{B}(\mathbf{r},t)}{m_{\pi}^{2}}=\alpha\left(\frac{197}{135} \right)^{2} \frac{\mathbf{p}\times \mathbf{R} ( E^{2}-|\mathbf{p}|^{2} ) } { ((R E)^{2}-|\mathbf{R}\times\mathbf{p}|^{2})^{3/2} } \qquad \frac{e\mathbf{E}(\mathbf{r},t)}{m_{\pi}^{2}}=\alpha\left(\frac{197}{135} \right)^{2} \frac{\mathbf{R} ( E^{2}-|\mathbf{p}|^{2} ) } { ((R E)^{2}-|\mathbf{R}\times\mathbf{p}|^{2})^{3/2} }" /></a>
 
+The last equations are implemented in all the codes, some conditions are added in order to consider all charged particles, spectators or participants. A brief description of the codes:
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Da las gracias públicamente 🤓.
+* etc.
+
+
 
 
 
 ## Monte Carlo Generator
-The Monte Carlo generator is used to simulate the initial condition of nuclei collisions, the Glauber Monte Carlo is very accurate with experiments results and is the one used in this work. After the initial condition is setted up, in order to take into account the temporal evolution of the system, several models are available. In UrQMD(<a href="arXiv:hep-ph/9909407"> arXiv:hep-ph/9909407</a>  ), the nucleus propagation is considered without any potential for all particles. However is possible to change this configuration, if we want to consider Coulomb, Pauli, among other potentials. 
+The Monte Carlo generator is used to simulate the initial condition of nuclei collisions, the Glauber Monte Carlo is very accurate with experiments results and is the one used in this work. After the initial condition is setted up, in order to take into account the temporal evolution of the system, several models are available. In UrQMD(<a href="arXiv:hep-ph/9909407"> arXiv:hep-ph/9909407</a>  ), the nucleus propagation is considered without any potential for all particles. However it is possible to add the Coulomb, Pauli, among other potentials.  
