@@ -9,11 +9,12 @@ To present the results that can be easily compared to recent publications, the e
 
 The last equations are implemented in all the codes, some conditions are added in order to consider all charged particles, spectators or participants. A brief description of the codes:
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* OutReacionPlane. -> Magnetic field produced by spectator protons at different times of collisions.
+* TemporalEvol_OutReactionPlaneGIF. -> Produce a GIF of the OutReactionPlane results.
+* TemporalEvolution. -> Temporal evolution of magnetic fields created by protons at x,y,z directions.
+* CentralityBin_y. -> Temporal evolution of magnetic fields for different centrality ranges.
 
+To use this codes from scratch, I mean generate the simulated data is needed to run urqmd and use the macro urqmdtoroot.C to create a C++ struct in order to save the data in ROOT tree files.
 
 
 
